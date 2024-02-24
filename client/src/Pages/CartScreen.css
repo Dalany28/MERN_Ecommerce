@@ -1,0 +1,85 @@
+
+.cartscreen {
+    display: flex;
+    width: 1200px;
+    margin: 2rem auto;
+    background-color: #fff;
+
+}
+.cartscreen h1 {
+
+    padding: 1rem;
+
+}
+.cartscreen__left {
+    flex: .7;
+    margin-right: 2rem;
+
+}
+.cartscreen__left h1 {
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #2b2b2b;
+    font-weight: bold;
+}
+.cartscreen__right {
+    position: relative;
+    flex: .3;
+    padding: 3rem 2rem;
+    height: 530px;
+    width: 380px;
+    background-color: #f8f8f8;
+    margin-top: 7rem;
+    margin-bottom: 3.5rem;
+
+}
+.btn button{
+    width: 100%;
+    padding: 13px 10px;
+    background-color: #2b2b2b;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .2s ease-out;
+}
+.btn button:hover {
+    background-color: #393939;
+}
+.cartscreen__info > p{
+    padding: .5rem;
+    font-size: 1rem;
+}
+.cartscreen__info {
+    border-bottom: 1px solid #2b2b2b;
+    margin-bottom: 20px;
+}
+.altogether {
+    font-weight: bold;
+}
+.cartsreen__payment {
+    top: 270px;
+    width: 85%;
+    position: absolute;
+
+}
+.cartsreen__payment > p{
+    font-size: 14px;
+    margin-top: 1rem;
+}
+.cartscreen__terms {
+    position: absolute;
+    top: 410px;
+    font-size: 12px;
+}
+.payment__brand {
+    margin-top: .8rem;
+    width: 120px;
+    display: flex;
+    gap: 8px;
+
+}

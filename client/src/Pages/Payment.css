@@ -1,0 +1,26 @@
+#payment-form{
+    width: 500px;
+    position: relative;
+    left: 32%;
+    top: 70px;
+}
+.text {
+    position: relative;
+    display: flex;
+    width: 500px;
+    background-color: #4a4a4a;
+    height: 60px;
+    left: 32%;
+    top: 100px;
+    margin-bottom: 2rem;
+}
+h1 {
+width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: lighter;
+    align-items: center;
+}
+

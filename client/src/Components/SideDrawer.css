@@ -1,0 +1,15 @@
+.sidedrawer {
+    width: 50%; /* Adjust the width to cover half the screen */
+    height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1111;
+    transform: translateX(-50%); /* Move halfway off the screen */
+    transition: all .3s ease-out;
+}
+
+.sidedrawer.show {
+    transform: translateX(0); /* Bring it back to fully visible position */
+}

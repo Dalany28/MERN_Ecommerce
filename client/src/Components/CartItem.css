@@ -1,0 +1,70 @@
+.cartitem {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    border-radius: 2px;
+    margin: 3 auto;
+    place-items:center;
+    position: relative;
+    background-color: #f8f8f8;
+    
+}
+.cartitem__info {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: absolute;
+    left: 250px;
+    top: 70px;
+
+
+}
+
+.subinfo {
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+.cartitem__name {
+    background: transparent;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #2b2b2b;
+    font-weight: bold;
+}
+
+.cartitem__img img{
+    width: 150px;
+
+}
+.cartitem__select {
+    background: transparent;
+    width: 150px;
+    border: none;
+    padding: 10px 0px;
+    font-size: 1rem;
+}
+.cartitem__deleteBtn {
+
+    font-size: 1rem;
+    color: rgb(20, 20, 20);
+    background: none;
+    border: 1px solid #2b2b2b;
+    cursor: pointer;
+    transition:  all .3 ease-out;
+}
+.deletebtn {
+    background: transparent;
+    position: absolute;
+    right: 50px;
+    bottom: -20px;
+}
+.deletebtn button {
+    border: none;
+}
+
